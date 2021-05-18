@@ -1,0 +1,283 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* =========================== Header ============================== */
+.header {
+  background: url(./img/landing-10.jpg) no-repeat top center;
+  background-size: cover;
+  min-height: 750px;
+  position: relative;
+  z-index: 1;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+.header-top-left {
+  margin-top: 20px;
+}
+.header-top-left ul {
+  list-style: none;
+}
+.header-top-left ul li {
+  display: inline-block;
+}
+.header-top-left ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 15px;
+  color: #fff;
+}
+.header-top-center {
+  margin-top: 20px;
+  text-align: center;
+}
+.header-top-center img {
+  width: 90px;
+}
+.header-top-right {
+  margin-top: 20px;
+  text-align: right;
+}
+.header-top-right a {
+  display: inline-block;
+  text-decoration: none;
+}
+.header-top-right a.btn-one {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 7px 18px;
+  margin-right: 10px;
+}
+.header-top-right a.btn-two {
+  background: #4a90e2;
+  border: 1px solid #4a90e2;
+  color: #fff;
+  padding: 7px 30px;
+}
+.header-bottom {
+  margin-top: 150px;
+}
+.header-bottom img {
+  width: 710px;
+  cursor: pointer;
+}
+.header-bottom h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 26px;
+}
+.header-bottom a {
+  background: #4a90e2;
+  border: 1px solid #4a90e2;
+  margin-top: 20px;
+  padding: 9px 27px;
+}
+/* ============================= Hot Section ============================== */
+.hot {
+  border-bottom: 1px solid #ddd;
+}
+.hot-title .span-one {
+  background: #31639c;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 15px;
+  border-radius: 17px;
+  font-size: 11px;
+  border: 2px solid #31639c;
+  margin-right: 10px;
+}
+.hot-title .span-two {
+  font-size: 1em;
+  color: #666666;
+  font-weight: 400;
+}
+.hot-title .span-two a {
+  color: #4a90e2;
+}
+/* =============================== Team Card =================================== */
+.team-card {
+  padding: 50px 0;
+}
+.team-card-item .card {
+  height: 415px;
+}
+.team-card-item .card .card-body h5 {
+  color: #252525;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.team-card-item .card .card-body p {
+  color: #666666;
+  font-weight: 400;
+  font-size: 1em;
+}
+.team-card-item .card .card-body a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+.team-card-item .card .card-body a:hover {
+  text-decoration: underline;
+}
+.team-card-item .card .card-body .span-tag {
+  text-align: right;
+}
+.team-card-item .card .card-body .span-tag span {
+  background: #31639c;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 15px;
+  border-radius: 17px;
+  font-size: 11px;
+  border: 2px solid #31639c;
+}
+.team-card-item .card .card-body .content-tag {
+  margin-top: -30px;
+}
+/* =============================== Perfect Design ================================= */
+.perfect-design {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+.perfect-design-title h2 {
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.perfect-design-title p {
+  font-weight: 400;
+  color: #808080;
+  font-size: 1.28em;
+}
+.perfect-design-content {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+.perfect-design-content span {
+  font-size: 3.47142857em;
+  display: inline-block;
+  float: left;
+  height: 130px;
+  width: 100px;
+}
+.perfect-design-content h5 {
+  font-size: 1em;
+  line-height: 1.85714286em;
+  color: #252525;
+  font-weight: 600;
+}
+.perfect-design-content p {
+  font-size: 0.9em;
+}
+.perfect-design-content a {
+  display: inline-block;
+  text-decoration: none;
+  color: #4a90e2;
+}
+.perfect-design-content.bod-botom {
+  border-bottom: 4px solid #4a90e2;
+}
+/* ====================== Beautiful Site ========================= */
+.beautiful-site {
+  border-top: 1px solid #ebebeb;
+  background: #fafafa;
+  padding: 80px 0;
+}
+.beautiful-content h2 {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.beautiful-content iframe {
+  margin-bottom: 20px;
+}
+.beautiful-content span {
+  color: #666666;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+.beautiful-content span a {
+  display: inline-block;
+  color: #4a90e2;
+}
+/* ========================= Build Beautiful ======================= */
+.build-beautiful {
+  background-color: #4a90e2;
+}
+.build-beautiful-content h2 {
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+.build-beautiful-content h2:hover {
+  text-decoration: underline;
+}
+/* =========================== Footer Top ============================== */
+.footer-top {
+  background-color: #252525;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.footer-top-1 h6 {
+  margin-bottom: 40px;
+}
+.footer-top-1 p {
+  font-size: 15px;
+  text-align: justify;
+}
+.footer-top-2-content {
+  margin-top: 35px;
+}
+.footer-top-2-content span {
+  float: left;
+  height: 130px;
+  width: 30px;
+}
+.footer-top-2-content p {
+  font-size: 15px;
+  line-height: 1.7em;
+}
+.footer-top-4 input {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.footer-top-4 a {
+  background-color: #4a90e2;
+  border: 1px solid #4a90e2;
+}
+/* ========================= Footer Bottom ======================== */
+.footer-bottom {
+  background-color: #181818;
+  padding: 15px 0;
+}
+.fb-lf p {
+  color: #767676;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+.fb-rt ul {
+  list-style: none;
+  text-align: right;
+  margin-top: 20px;
+  padding-left: 0;
+}
+.fb-rt ul li {
+  display: inline-block;
+}
+.fb-rt ul li a {
+  color: #fff;
+  padding: 0 15px;
+}
