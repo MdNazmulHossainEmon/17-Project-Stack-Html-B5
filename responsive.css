@@ -15,8 +15,6 @@
     height: 355px;
   }
 }
-@media (max-width: 1068px) {
-}
 @media (max-width: 992px) {
   .header-top-left ul li a {
     display: inline-block;
@@ -81,8 +79,6 @@
     width: 30px;
   }
 }
-@media (max-width: 876px) {
-}
 @media (max-width: 768px) {
   .fb-lf {
     text-align: center;
@@ -129,8 +125,6 @@
     padding: 5px 13px;
     font-size: 11px;
   }
-}
-@media (max-width: 656px) {
 }
 @media (max-width: 576px) {
   .beautiful-content iframe {
